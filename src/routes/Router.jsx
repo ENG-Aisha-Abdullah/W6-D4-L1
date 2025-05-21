@@ -5,14 +5,9 @@ import Courses from "../pages/Courses";
 function Layout() {
   return (
     <>
-      {
-        < Home />
-    //   <Courses />
-
-
-      /* <Nav />
+      {/* <Home /> */}
       <Outlet />
-      <Footer /> */}
+      <Courses />
     </>
   );
 }
